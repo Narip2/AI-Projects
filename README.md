@@ -1,10 +1,11 @@
-## 简介
-该仓库用于自学机器学习相关内容。
+## Introduction
 
-## 仓库结构
+This repository is for self-learning machine learning.
+
+## Structure of the repository
 
 ## To do
-- 神经网络手写字识别
+- NN: Handwritten digit recognition
 - CNN
 - RNN
 - Self-attention

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "62fe8d6567277732",
+        "id": "372447f495b3350a",
         "type": "tabs",
         "children": [
           {
-            "id": "b02f2f8c154141f6",
+            "id": "a4315f1a5d0f3edd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,8 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b02f2f8c154141f6",
+  "active": "a4315f1a5d0f3edd",
   "lastOpenFiles": [
+    "Untitled.md",
     "Welcome.md"
   ]
 }
