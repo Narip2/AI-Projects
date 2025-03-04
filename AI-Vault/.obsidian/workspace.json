@@ -11,10 +11,14 @@
             "id": "a4315f1a5d0f3edd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Gradient descent.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Gradient descent"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "73b224618a71f9b0",
@@ -164,7 +167,7 @@
   },
   "active": "a4315f1a5d0f3edd",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Gradient descent.md",
     "Welcome.md"
   ]
 }
