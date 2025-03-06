@@ -16,3 +16,18 @@ Two references:
 $$
 w_{ij}^{\left( l \right)},b_{i}^{\left( l \right)},a_{i}^{\left( l \right)},z_{i}^{\left( l \right)}.
 $$
+
+# CNN实现
+CNN(一个简短的[介绍视频](https://www.bilibili.com/video/BV1MsrmY4Edi?spm_id_from=333.788.videopod.episodes&vd_source=ac9b07978062a2dbae3c01bd0e801738)) 的基本思想包含以下三个：
+- local receptive fields
+- shared weights (also called kenerl or filter)
+- pooling
+
+第一步：
+![[Pasted image 20250306215938.png]]
+网络里面的输出是用下面这个映射：
+
+$$
+\sigma\left(b+\sum_{l=0}^4 \sum_{m=0}^4 w_{l, m} a_{j+l, k+m}\right)
+$$
+这里的 $w$ 和 $b$ 被称作shared weights和 shared biase.
