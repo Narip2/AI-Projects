@@ -12,6 +12,7 @@ Two references:
 # Backpropagation
 
 反向传播的核心其实就是链式求导法则。不过为了编程易于实现，并且复用链式求导法则中的中间导数，我们需要对链式求导法则进行稍微的修改。为了实现前面所说的目的，我们需要定义几个符号： 
+
 $$
 w_{ij}^{\left( l \right)},b_{i}^{\left( l \right)},a_{i}^{\left( l \right)},z_{i}^{\left( l \right)}.
 $$
