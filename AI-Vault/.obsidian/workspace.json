@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gradient descent.md",
-                "mode": "source",
+                "file": "Deep learning.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gradient descent"
+              "title": "Deep learning"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "73b224618a71f9b0",
@@ -167,7 +168,7 @@
   },
   "active": "a4315f1a5d0f3edd",
   "lastOpenFiles": [
-    "Gradient descent.md",
+    "Deep learning.md",
     "Welcome.md"
   ]
 }
