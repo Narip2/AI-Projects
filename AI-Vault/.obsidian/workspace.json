@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Deep learning.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -168,9 +168,11 @@
   },
   "active": "a4315f1a5d0f3edd",
   "lastOpenFiles": [
+    "Pasted image 20250307082113.png",
+    "Pasted image 20250307081915.png",
     "Pasted image 20250306215938.png",
-    "image.png",
     "Deep learning.md",
+    "image.png",
     "Welcome.md"
   ]
 }

@@ -30,4 +30,7 @@ CNN(一个简短的[介绍视频](https://www.bilibili.com/video/BV1MsrmY4Edi?sp
 $$
 \sigma\left(b+\sum_{l=0}^4 \sum_{m=0}^4 w_{l, m} a_{j+l, k+m}\right)
 $$
-这里的 $w$ 和 $b$ 被称作shared weights和 shared biase.
+这里的 $w$ 和 $b$ 被称作shared weights和 shared biase. 如果有多个kernel，就会得到多个卷积的处理结果，如下图的三个kernel所示：
+![[Pasted image 20250307081915.png]]
+第二部就是池化(pooling)。池化的一个显著好处就是数据被压缩。常用的池化操作有max-pooling和L2 pooling。
+![[Pasted image 20250307082113.png]]
