@@ -1,5 +1,5 @@
-a = [1,2,3,4]
-b = [2,3,4]
-cnt = 0
-for x,y in zip(a,b):
-    print(f"{x} {y}")
+import random
+import numpy as np
+
+a = np.array([[1,2],[3,4]])
+print(type(a))
