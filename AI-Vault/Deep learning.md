@@ -5,6 +5,8 @@ Mainly refer to [Nielsen's book](https://static.latexstudio.net/article/2018/091
 - Stochastic Gradient Descent
 - Mini-Batch GD
 
+Consider if we have $n$ inputs in total. 
+
 Two references:
 [Video 1](https://www.bilibili.com/video/BV13p4y1g7eQ/?vd_source=ac9b07978062a2dbae3c01bd0e801738)
 [Blogs](http://cnblogs.com/lliuye/p/9451903.html)
@@ -16,6 +18,12 @@ Two references:
 $$
 w_{ij}^{\left( l \right)},b_{i}^{\left( l \right)},a_{i}^{\left( l \right)},z_{i}^{\left( l \right)}.
 $$
+
+这里，$w_{ij}^{\left( l \right)}$ 表示的是从 $l-1$层到 $l$ 层的 weights。其中下标 $ij$ 表示从 $l-1$层的第 $j$个神经元映射到第 $l$ 层的第 $i$个神经元。这里的 $b_{i}^{\left( l \right)}$ 表示的是第 $l$ 层的第 $i$ 个 bias。 $a_{i}^{\left( l \right)}$ 表示的是第 $l$层第 $i$ 个神经元上的 activation, 而 $z_{i}^{(l)}$ 表示的是第 $l$ 层第 $i$ 个神经元上的 $z$函数， $z$函数满足关系 $a_{i}^{\left( l \right)}=\sigma \left( z_{i}^{\left( l \right)} \right)$。Here, $\sigma$ stands for the sigmoid function.
+
+All the formulas will be used in the backpropagation procedure can be found in the following picture, where $\delta$ is the newly defined quantity that will simplify our computation.
+
+![[Pasted image 20250309220500.png]]
 
 # CNN实现
 CNN(一个简短的[介绍视频](https://www.bilibili.com/video/BV1MsrmY4Edi?spm_id_from=333.788.videopod.episodes&vd_source=ac9b07978062a2dbae3c01bd0e801738)) 的基本思想包含以下三个：
@@ -34,3 +42,6 @@ $$
 ![[Pasted image 20250307081915.png]]
 第二部就是池化(pooling)。池化的一个显著好处就是数据被压缩。常用的池化操作有max-pooling和L2 pooling。
 ![[Pasted image 20250307082113.png]]
+
+# Use MNIST dataset
+

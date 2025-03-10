@@ -1,5 +1,8 @@
-import random
+import matplotlib.pyplot as plt
 import numpy as np
+import mnist_loader
+import network
 
-a = np.array([[1,2],[3,4]])
-print(type(a))
+training_data, validation_data, test_data = mnist_loader.load_data_wrapper()
+net = network.Network([784,100, 10])
+net.SGD(training_data,30,10,3.0,test_data=test_data)

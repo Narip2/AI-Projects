@@ -11,4 +11,5 @@ This repository is for self-learning machine learning.
 - [] RNN
 - [] Self-attention
 - [] Transformer
-- Sklearn
+- Hugging face
+- 结合Hugging face做几个实验
